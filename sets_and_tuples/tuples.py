@@ -10,6 +10,9 @@ print(type(singleton))
 
 # Accessing like list
 coordinates = (3,4, 5, 6)
+coordinates = (4,5,6,7)
+
+coordinates[1] = 9
 
 three = coordinates[0]
 print(three)
